@@ -15,7 +15,7 @@ Fill empty markdown notes or sections of notes in an (not necessarily Obsidian) 
 Clone the skill into your opencode skills directory:
 
 ```bash
-git clone https://github.com/anomalyco/fill-wiki ~/.config/opencode/skills/fill-wiki
+git clone https://github.com/CaptainGitHook/fill-wiki ~/.config/opencode/skills/fill-wiki
 ```
 
 ### Verify
@@ -49,7 +49,7 @@ Ambiguous or uncertain topics are reported without guessing.
 |---|---|
 | `/fill-wiki` | Fill empty notes in current directory (full pipeline) |
 | `/fill-wiki <path>` | Fill empty notes in the given vault/directory (full pipeline) |
-|---| 
+| |
 | Deterministic: |
 | `/fill-wiki index <path>` | Scan vault for linkable files (no filling) |
 | `/fill-wiki scan <path>` | Scan vault for empty markdown files (no filling) |
